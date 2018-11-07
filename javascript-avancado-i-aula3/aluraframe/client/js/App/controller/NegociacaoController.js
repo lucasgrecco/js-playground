@@ -12,8 +12,8 @@ class NegociacaoController {
         event.preventDefault();
 
         let arData = this._inputData.value.split('-');
-        console.log(this._inputData.value);
-        console.log(arData);
+        // console.log(this._inputData.value);
+        // console.log(arData);
 
         let data = new Date(arData);
         let negociacao = new Negociacao(
@@ -22,8 +22,9 @@ class NegociacaoController {
             this._inputValor.value,
         );
 
+        //numeros.map(function (item) { return item * 2; })
+
         // alert('gibimba');
-        //
         // let $ = document.querySelector.bind(document);
         // let inputData = $('#data');
         // let inputQuantidade = $('#quantidade');
