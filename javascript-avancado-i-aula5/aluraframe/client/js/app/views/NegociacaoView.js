@@ -26,7 +26,7 @@ class NegociacaoView {
                         <td>${n.valor}</td>
                         <td>${n.volume}</td>
                     </tr>
-                `;        
+                `;
             }
         ).join('')}
             
