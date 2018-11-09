@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cd87a24-4c0d-4a22-82f3-72723577fe2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/helpers/DataHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript-avancado-i-aula3/aluraframe/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-avancado-i-aula3/aluraframe/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/controllers/NegociacaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/controllers/NegociacaoController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/server/node_modules/express/node_modules/cookie/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/server/node_modules/express/node_modules/cookie/HISTORY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/server/node_modules/express/node_modules/cookie/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/server/node_modules/express/node_modules/cookie/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/server/node_modules/express/node_modules/cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/server/node_modules/express/node_modules/cookie/README.md" afterDir="false" />
@@ -26,16 +23,18 @@
     <session id="700511263">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="html" value="6" />
+          <entry key="ignore" value="1" />
           <entry key="js" value="23" />
           <entry key="ts" value="1" />
         </counts>
@@ -44,21 +43,25 @@
         <counts>
           <entry key="HTML" value="6" />
           <entry key="JavaScript" value="23" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="8" />
           <entry key="html" value="501" />
+          <entry key="ignore" value="1" />
           <entry key="js" value="1008" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Git file" value="5" />
           <entry key="HTML" value="501" />
           <entry key="JavaScript" value="1008" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
     </session>
@@ -77,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
+            <state relative-caret-position="930">
               <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
             </state>
           </provider>
@@ -92,11 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/helpers/DataHelper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -139,6 +151,7 @@
         <option value="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/index.html" />
         <option value="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/controllers/NegociacaoController.js" />
         <option value="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/helpers/DataHelper.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,7 +260,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -305,7 +318,8 @@
       <updated>1541498324539</updated>
       <workItem from="1541498325665" duration="11214000" />
       <workItem from="1541591859271" duration="8734000" />
-      <workItem from="1541767432434" duration="1526000" />
+      <workItem from="1541767432434" duration="1654000" />
+      <workItem from="1541769100931" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="Data">
       <created>1541607230282</created>
@@ -321,18 +335,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541621569917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Varios bugs">
+      <created>1541768971965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541768971965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21474000" />
+    <option name="totallyTimeSpent" value="22806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16280295" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22991072" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -362,7 +383,8 @@
     </ignored-roots>
     <MESSAGE value="Data" />
     <MESSAGE value="Aula 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 4" />
+    <MESSAGE value="Varios bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Varios bugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,20 +468,10 @@
     <entry file="http://localhost:63342/ES6-1/javascript-avancado-i-aula3/aluraframe/client/js/App/controller/NegociacaoController.js">
       <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula3/aluraframe/client/js/App/models/Negociacao.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula3/aluraframe/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula3/aluraframe/client/js/App/controller/NegociacaoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -469,9 +481,17 @@
     <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/models/Negociacao.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.ignore" />
+    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula3/aluraframe/client/js/App/controller/NegociacaoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
+        <state relative-caret-position="930">
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
         </state>
       </provider>
@@ -486,7 +506,17 @@
     <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/helpers/DataHelper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula3/aluraframe/client/js/App/models/Negociacao.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
