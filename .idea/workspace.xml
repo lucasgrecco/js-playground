@@ -2,7 +2,435 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cd87a24-4c0d-4a22-82f3-72723577fe2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/controllers/NegociacaoController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/helpers/DateHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/models/ListaNegociacoes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/models/Negociacao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/views/NegociacaoView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/app/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/app/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/config/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/lib/read.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/lib/types/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/body-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/bytes/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/bytes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/bytes/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/bytes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/bytes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/content-type/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/content-type/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/content-type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/content-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/content-type/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/lib/compat/buffer-concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/lib/compat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ee-first/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ee-first/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ee-first/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ee-first/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/middleware/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/middleware/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/mime-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/charset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/encoding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/language.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/mediaType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/accepts/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/array-flatten/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/array-flatten/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/array-flatten/array-flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/array-flatten/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-disposition/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-disposition/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-disposition/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-disposition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-disposition/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-type/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-type/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/content-type/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie-signature/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie-signature/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie-signature/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie-signature/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/cookie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/node_modules/ms/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/node_modules/ms/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/node_modules/ms/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/node_modules/ms/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/lib/compat/buffer-concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/lib/compat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/escape-html/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/escape-html/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/escape-html/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/escape-html/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/etag/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/etag/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/etag/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/etag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/etag/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/node_modules/unpipe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/node_modules/unpipe/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/node_modules/unpipe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/node_modules/unpipe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/node_modules/unpipe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/finalhandler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/fresh/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/fresh/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/fresh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/fresh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/fresh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/merge-descriptors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/merge-descriptors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/merge-descriptors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/merge-descriptors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/merge-descriptors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/methods/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/methods/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/methods/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/methods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/methods/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/node_modules/ee-first/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/node_modules/ee-first/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/node_modules/ee-first/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/node_modules/ee-first/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/parseurl/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/parseurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/parseurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/parseurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/parseurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/path-to-regexp/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/path-to-regexp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/path-to-regexp/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/path-to-regexp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/Cakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/ipaddr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/lib/ipaddr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/range-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/range-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/range-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/range-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/range-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/.bin/mime" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/destroy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/destroy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/destroy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/destroy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/build/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/mime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/mime/types.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/ms/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/ms/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/ms/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/ms/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/send/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/serve-static/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/serve-static/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/serve-static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/serve-static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/serve-static/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/media-typer/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/media-typer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/media-typer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/media-typer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/media-typer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/node_modules/mime-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/type-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/utils-merge/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/utils-merge/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/utils-merge/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/utils-merge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/utils-merge/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/vary/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/vary/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/vary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/vary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/node_modules/vary/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/express/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/dbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/tables/big5-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/tables/cp936.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/tables/cp949.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/tables/cp950.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/tables/eucjp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/lib/streams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/inherits/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/media-typer/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/media-typer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/media-typer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/media-typer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/media-typer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-types/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/mime-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ms/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ms/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ms/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ms/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/on-finished/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/raw-body/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/raw-body/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/raw-body/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/raw-body/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/type-is/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/type-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/type-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/type-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/type-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/unpipe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/unpipe/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/unpipe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/unpipe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/node_modules/unpipe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,17 +456,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="html" value="7" />
+          <entry key="html" value="8" />
           <entry key="ignore" value="1" />
-          <entry key="js" value="30" />
+          <entry key="js" value="35" />
           <entry key="ts" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="HTML" value="7" />
-          <entry key="JavaScript" value="30" />
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="35" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="3" />
         </counts>
@@ -46,17 +474,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="23" />
-          <entry key="html" value="503" />
+          <entry key="html" value="515" />
           <entry key="ignore" value="1" />
-          <entry key="js" value="1478" />
+          <entry key="js" value="1808" />
           <entry key="txt" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="20" />
-          <entry key="HTML" value="503" />
-          <entry key="JavaScript" value="1478" />
+          <entry key="HTML" value="522" />
+          <entry key="JavaScript" value="1801" />
           <entry key="PLAIN_TEXT" value="103" />
         </counts>
       </usages-collector>
@@ -64,61 +492,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/helpers/DataHelper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="http://localhost:63342/ES6-1/javascript-avancado-i-aula4/aluraframe/client/js/app/helpers/DataHelper.js">
-          <provider selected="true" editor-type-id="httpFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/controllers/NegociacaoController.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/views/NegociacaoView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/models/ListaNegociacoes.js">
+        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/controllers/NegociacaoController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/models/Negociacao.js">
+        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/models/ListaNegociacoes.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/helpers/DateHelper.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="456">
+              <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -158,6 +564,10 @@
         <option value="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/controllers/NegociacaoController.js" />
         <option value="$PROJECT_DIR$/javascript-avancado-i-aula4/aluraframe/client/js/app/helpers/DataHelper.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/views.js" />
+        <option value="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/controllers/NegociacaoController.js" />
+        <option value="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/index.html" />
+        <option value="$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/views/NegociacaoView.js" />
       </list>
     </option>
   </component>
@@ -205,25 +615,33 @@
             <path>
               <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript-avancado-i-aula4" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript-avancado-i-aula4" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
               <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript-avancado-i-aula4" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
               <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript-avancado-i-aula4" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
+              <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
               <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
@@ -231,7 +649,7 @@
             <path>
               <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript-avancado-i-aula4" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
               <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
@@ -240,7 +658,7 @@
             <path>
               <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript-avancado-i-aula4" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
               <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
@@ -250,7 +668,7 @@
             <path>
               <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript-avancado-i-aula4" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
               <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
@@ -260,12 +678,22 @@
             <path>
               <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript-avancado-i-aula4" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
               <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ES6-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ES6-1" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript-avancado-i-aula5" type="462c0819:PsiDirectoryNode" />
+              <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +706,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/contenta_react_next" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -301,7 +729,7 @@
     <configuration name="index.html aula 3" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/ES6-1/javascript-avancado-i-aula3/aluraframe/client/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/ES6-1/javascript-avancado-i-aula4/aluraframe/client/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/ES6-1/javascript-avancado-i-aula5/aluraframe/client/index.html">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ES6-1/javascript-avancado-i-aula4/aluraframe/client/index.html">
@@ -337,7 +765,7 @@
       <workItem from="1541498325665" duration="11214000" />
       <workItem from="1541591859271" duration="8734000" />
       <workItem from="1541767432434" duration="1654000" />
-      <workItem from="1541769100931" duration="7094000" />
+      <workItem from="1541769100931" duration="9748000" />
     </task>
     <task id="LOCAL-00001" summary="Data">
       <created>1541607230282</created>
@@ -395,11 +823,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541785934306</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Throw exception">
+      <created>1541785963018</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541785963018</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28696000" />
+    <option name="totallyTimeSpent" value="31350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -468,6 +903,12 @@
           <line>10</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/controllers/NegociacaoController.js</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -601,10 +1042,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/views.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/models/ListaNegociacoes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/helpers/DateHelper.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/controllers/NegociacaoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-avancado-i-aula5/aluraframe/client/js/app/views/NegociacaoView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
