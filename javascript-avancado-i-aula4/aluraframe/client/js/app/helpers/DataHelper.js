@@ -1,5 +1,11 @@
 class DataHelper {
 
+
+    constructor() {
+        throw new Error('Você não pode criar uma instância dessa classe');
+
+    }
+
     static textToDate(text) {
         console.log(text);
 
